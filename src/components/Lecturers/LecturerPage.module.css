@@ -1,0 +1,49 @@
+.page {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.backBtn {
+  background: transparent;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.top {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.photo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  background: #ddd;
+}
+
+.top h1 {
+  margin-bottom: 15px;
+}
+
+.top p {
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.page h2 {
+  margin: 30px 0 15px;
+}
+
+.page ul {
+  padding-left: 25px;
+}
+
+.page li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}

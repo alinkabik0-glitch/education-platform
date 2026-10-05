@@ -1,0 +1,32 @@
+.header {
+  background: linear-gradient(90deg, #B0D3F6, #4C9CEB, #8F969D);
+  padding: 15px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 1.1rem;
+  padding: 8px 25px;
+  cursor: pointer;
+  border-right: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.btn:last-child {
+  border-right: none;
+}
+
+.btn:hover {
+  text-decoration: underline;
+}

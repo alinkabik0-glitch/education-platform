@@ -1,0 +1,13 @@
+#home, #about, #partners, #lecturers {
+  scroll-margin-top: 80px;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
